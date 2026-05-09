@@ -1,29 +1,6 @@
 \# ♻️ E-Waste Awareness Analysis using Hypothesis Testing \& Machine Learning
 
 
-
-<div align="center">
-
-
-
-!\[Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge\\\&logo=python)
-
-!\[Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge\\\&logo=pandas)
-
-!\[Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge\\\&logo=scikit-learn)
-
-!\[Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
-
-
-
-</div>
-
-
-
-\---
-
-
-
 \## 📌 Project Overview
 
 
