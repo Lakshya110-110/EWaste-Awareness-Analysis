@@ -1,45 +1,46 @@
-\# ♻️ E-Waste Awareness Analysis using Hypothesis Testing \& Machine Learning
-
-
-\## 📌 Project Overview
+# ♻️ E-Waste Awareness Analysis using Hypothesis Testing & Machine Learning
 
 
 
-This project presents a comprehensive analysis of \*\*E-Waste awareness and disposal behavior\*\* using survey data collected through Google Forms. The study integrates \*\*statistical hypothesis testing\*\*, \*\*machine learning\*\*, and \*\*data visualization\*\* techniques to evaluate awareness patterns and identify demographic factors influencing responsible E-Waste management.
+## 📌 Project Overview
 
 
 
-The project was developed as part of a \*\*Business Research Methods (BRM)\*\* study using Python-based analytical tools.
+This project presents a comprehensive analysis of **E-Waste awareness and disposal behavior** using survey data collected through Google Forms. The study integrates **statistical hypothesis testing**, **machine learning**, and **data visualization** techniques to evaluate awareness patterns and identify demographic factors influencing responsible E-Waste management.
 
 
 
-\---
+The project was developed as part of a **Business Research Methods (BRM)** study using Python-based analytical tools.
 
 
 
-\# 🎯 Objectives
+---
 
 
 
-\* Analyze awareness regarding E-Waste among respondents
-
-\* Examine the relationship between gender and E-Waste awareness
-
-\* Study ownership patterns of unused electronic devices
-
-\* Apply Chi-Square Hypothesis Testing
-
-\* Predict awareness levels using Machine Learning
-
-\* Identify the most influential demographic factors affecting awareness
+# 🎯 Objectives
 
 
 
-\---
+* Analyze awareness regarding E-Waste among respondents
+
+* Examine the relationship between gender and E-Waste awareness
+
+* Study ownership patterns of unused electronic devices
+
+* Apply Chi-Square Hypothesis Testing
+
+* Predict awareness levels using Machine Learning
+
+* Identify the most influential demographic factors affecting awareness
 
 
 
-\# 🛠️ Tech Stack
+---
+
+
+
+# 🛠️ Tech Stack
 
 
 
@@ -65,11 +66,11 @@ The project was developed as part of a \*\*Business Research Methods (BRM)\*\* s
 
 
 
-\---
+---
 
 
 
-\# 📂 Dataset Information
+# 📂 Dataset Information
 
 
 
@@ -91,29 +92,29 @@ The dataset includes:
 
 
 
-\* Demographic information
+* Demographic information
 
-\* E-Waste awareness
+* E-Waste awareness
 
-\* Recycling behavior
+* Recycling behavior
 
-\* Disposal practices
+* Disposal practices
 
-\* Environmental concerns
+* Environmental concerns
 
-\* Awareness campaign exposure
-
-
-
-\---
+* Awareness campaign exposure
 
 
 
-\# 📊 Exploratory Data Analysis
+---
 
 
 
-\## 📌 Gender Distribution
+# 📊 Exploratory Data Analysis
+
+
+
+## 📌 Gender Distribution
 
 
 
@@ -121,35 +122,35 @@ The following visualization represents respondent distribution across gender cat
 
 
 
-\### 🔗 Image Link
+### 🔗 Image Link
 
 
 
-\[View Gender Distribution Graph](images/gender\_distribution.png)
+[View Gender Distribution Graph](images/gender_distribution.png)
 
 
 
-<img src="images/gender\_distribution.png" width="700">
+<img src="images/gender_distribution.png" width="700">
 
 
 
-\### 📈 Key Observation
+### 📈 Key Observation
 
 
 
-\* Female respondents constituted the majority of survey participants.
+* Female respondents constituted the majority of survey participants.
 
-\* Male respondents formed the second-largest respondent group.
+* Male respondents formed the second-largest respondent group.
 
-\* Very few respondents selected “Prefer not to say”.
-
-
-
-\---
+* Very few respondents selected “Prefer not to say”.
 
 
 
-\# 🔥 Correlation Heatmap
+---
+
+
+
+# 🔥 Correlation Heatmap
 
 
 
@@ -157,11 +158,11 @@ The correlation heatmap below illustrates relationships between encoded survey v
 
 
 
-\### 🔗 Image Link
+### 🔗 Image Link
 
 
 
-\[View Correlation Heatmap](images/heatmap.png)
+[View Correlation Heatmap](images/heatmap.png)
 
 
 
@@ -169,31 +170,31 @@ The correlation heatmap below illustrates relationships between encoded survey v
 
 
 
-\### 📈 Insights
+### 📈 Insights
 
 
 
-\* Awareness-related variables demonstrated moderate positive correlations.
+* Awareness-related variables demonstrated moderate positive correlations.
 
-\* Gender showed relatively weak correlation with awareness indicators.
+* Gender showed relatively weak correlation with awareness indicators.
 
-\* Age and education displayed stronger influence on awareness behavior.
-
-
-
-\---
+* Age and education displayed stronger influence on awareness behavior.
 
 
 
-\# 📈 Statistical Hypothesis Testing
+---
 
 
 
-\## 🧪 Hypothesis 1
+# 📈 Statistical Hypothesis Testing
 
 
 
-\### Null Hypothesis (H₀)
+## 🧪 Hypothesis 1
+
+
+
+### Null Hypothesis (H₀)
 
 
 
@@ -201,7 +202,7 @@ Gender and E-Waste awareness are statistically independent.
 
 
 
-\### Alternative Hypothesis (H₁)
+### Alternative Hypothesis (H₁)
 
 
 
@@ -209,11 +210,11 @@ Gender and E-Waste awareness are statistically dependent.
 
 
 
-\---
+---
 
 
 
-\### 📊 Chi-Square Test Results
+### 📊 Chi-Square Test Results
 
 
 
@@ -229,7 +230,7 @@ Gender and E-Waste awareness are statistically dependent.
 
 
 
-\### ✅ Conclusion
+### ✅ Conclusion
 
 
 
@@ -237,19 +238,19 @@ Since the p-value exceeded the significance level of 0.05, the null hypothesis w
 
 
 
-\*\*Gender and E-Waste awareness were found to be statistically independent.\*\*
+**Gender and E-Waste awareness were found to be statistically independent.**
 
 
 
-\---
+---
 
 
 
-\## 🧪 Hypothesis 2
+## 🧪 Hypothesis 2
 
 
 
-\### Null Hypothesis (H₀)
+### Null Hypothesis (H₀)
 
 
 
@@ -257,7 +258,7 @@ Gender and ownership of unused electronic devices are statistically independent.
 
 
 
-\### Alternative Hypothesis (H₁)
+### Alternative Hypothesis (H₁)
 
 
 
@@ -265,11 +266,11 @@ Gender and ownership of unused electronic devices are statistically dependent.
 
 
 
-\---
+---
 
 
 
-\### 📊 Chi-Square Test Results
+### 📊 Chi-Square Test Results
 
 
 
@@ -285,7 +286,7 @@ Gender and ownership of unused electronic devices are statistically dependent.
 
 
 
-\### ✅ Conclusion
+### ✅ Conclusion
 
 
 
@@ -293,51 +294,51 @@ Since the p-value exceeded 0.05, the null hypothesis was accepted.
 
 
 
-\*\*Gender and ownership of unused electronic devices were found to be statistically independent.\*\*
+**Gender and ownership of unused electronic devices were found to be statistically independent.**
 
 
 
-\---
+---
 
 
 
-\# 🤖 Machine Learning Analysis
+# 🤖 Machine Learning Analysis
 
 
 
-\## 📌 Model Used
+## 📌 Model Used
 
 
 
-\* Random Forest Classifier
+* Random Forest Classifier
 
 
 
-\## 📌 Input Features
+## 📌 Input Features
 
 
 
-\* Age Group
+* Age Group
 
-\* Gender
+* Gender
 
-\* Education Level
-
-
-
-\## 📌 Target Variable
+* Education Level
 
 
 
-\* E-Waste Awareness
+## 📌 Target Variable
 
 
 
-\---
+* E-Waste Awareness
 
 
 
-\# 📊 Model Performance
+---
+
+
+
+# 📊 Model Performance
 
 
 
@@ -353,11 +354,11 @@ The Random Forest model successfully predicted awareness levels using demographi
 
 
 
-\---
+---
 
 
 
-\# 📉 Confusion Matrix
+# 📉 Confusion Matrix
 
 
 
@@ -365,33 +366,33 @@ The confusion matrix below evaluates classification performance by comparing act
 
 
 
-\### 🔗 Image Link
+### 🔗 Image Link
 
 
 
-\[View Confusion Matrix](images/confusion\_matrix.png)
+[View Confusion Matrix](images/confusion_matrix.png)
 
 
 
-<img src="images/confusion\_matrix.png" width="600">
+<img src="images/confusion_matrix.png" width="600">
 
 
 
-\### 📈 Interpretation
+### 📈 Interpretation
 
 
 
-\* The model accurately identified the majority awareness class.
+* The model accurately identified the majority awareness class.
 
-\* Dataset imbalance influenced prediction performance for minority responses.
-
-
-
-\---
+* Dataset imbalance influenced prediction performance for minority responses.
 
 
 
-\# ⭐ Feature Importance Analysis
+---
+
+
+
+# ⭐ Feature Importance Analysis
 
 
 
@@ -399,35 +400,35 @@ Feature importance analysis identifies the variables contributing most significa
 
 
 
-\### 🔗 Image Link
+### 🔗 Image Link
 
 
 
-\[View Feature Importance Graph](images/feature\_importance.png)
+[View Feature Importance Graph](images/feature_importance.png)
 
 
 
-<img src="images/feature\_importance.png" width="700">
+<img src="images/feature_importance.png" width="700">
 
 
 
-\### 📈 Key Findings
+### 📈 Key Findings
 
 
 
-\* \*\*Age Group\*\* emerged as the strongest predictor of awareness.
+* **Age Group** emerged as the strongest predictor of awareness.
 
-\* \*\*Education Level\*\* also showed meaningful influence.
+* **Education Level** also showed meaningful influence.
 
-\* \*\*Gender\*\* demonstrated comparatively lower predictive importance.
-
-
-
-\---
+* **Gender** demonstrated comparatively lower predictive importance.
 
 
 
-\# 🧹 Data Preprocessing
+---
+
+
+
+# 🧹 Data Preprocessing
 
 
 
@@ -435,23 +436,23 @@ The following preprocessing steps were performed before analysis:
 
 
 
-\* Null value detection
+* Null value detection
 
-\* Duplicate removal
+* Duplicate removal
 
-\* Label Encoding for categorical variables
+* Label Encoding for categorical variables
 
-\* Correlation analysis
+* Correlation analysis
 
-\* Data visualization
-
-
-
-\---
+* Data visualization
 
 
 
-\# 📁 Project Structure
+---
+
+
+
+# 📁 Project Structure
 
 
 
@@ -469,25 +470,25 @@ EWaste-Awareness-Analysis/
 
 ├── images/
 
-│   ├── gender\_distribution.png
+│   ├── gender_distribution.png
 
 │   ├── heatmap.png
 
-│   ├── confusion\_matrix.png
+│   ├── confusion_matrix.png
 
-│   ├── feature\_importance.png
+│   ├── feature_importance.png
 
 │
 
 ├── report/
 
-│   └── BRM\_Report.pdf
+│   └── BRM_Report.pdf
 
 │
 
 ├── src/
 
-│   └── ewaste\_ml\_analysis.py
+│   └── ewaste_ml_analysis.py
 
 │
 
@@ -497,15 +498,15 @@ EWaste-Awareness-Analysis/
 
 
 
-\---
+---
 
 
 
-\# ▶️ Installation \& Execution
+# ▶️ Installation & Execution
 
 
 
-\## 1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 
 
 
@@ -517,7 +518,7 @@ git clone https://github.com/your-username/EWaste-Awareness-Analysis.git
 
 
 
-\## 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 
 
 
@@ -529,83 +530,83 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy openpyxl
 
 
 
-\## 3️⃣ Run the Project
+## 3️⃣ Run the Project
 
 
 
 ```bash
 
-python ewaste\_ml\_analysis.py
+python ewaste_ml_analysis.py
 
 ```
 
 
 
-\---
+---
 
 
 
-\# 📌 Key Findings
+# 📌 Key Findings
 
 
 
-\* Most respondents were already aware of E-Waste.
+* Most respondents were already aware of E-Waste.
 
-\* Gender did not significantly influence awareness levels.
+* Gender did not significantly influence awareness levels.
 
-\* Gender did not significantly affect ownership of unused electronic devices.
+* Gender did not significantly affect ownership of unused electronic devices.
 
-\* Age Group emerged as the strongest predictor of awareness.
+* Age Group emerged as the strongest predictor of awareness.
 
-\* Machine learning achieved strong predictive performance using demographic variables.
-
-
-
-\---
+* Machine learning achieved strong predictive performance using demographic variables.
 
 
 
-\# 🚀 Future Enhancements
+---
 
 
 
-\* Expand dataset size for broader analysis
-
-\* Apply advanced classification algorithms
-
-\* Address class imbalance using SMOTE
-
-\* Develop interactive dashboards using Power BI
-
-\* Deploy the project as a Streamlit web application
+# 🚀 Future Enhancements
 
 
 
-\---
+* Expand dataset size for broader analysis
+
+* Apply advanced classification algorithms
+
+* Address class imbalance using SMOTE
+
+* Develop interactive dashboards using Power BI
+
+* Deploy the project as a Streamlit web application
 
 
 
-\# 📖 Conclusion
+---
 
 
 
-This project demonstrates the integration of \*\*statistical hypothesis testing\*\* and \*\*machine learning techniques\*\* to analyze E-Waste awareness and disposal behavior. The study highlights how predictive analytics and statistical analysis can be combined to derive meaningful insights from survey-based research data.
+# 📖 Conclusion
 
 
 
-\---
+This project demonstrates the integration of **statistical hypothesis testing** and **machine learning techniques** to analyze E-Waste awareness and disposal behavior. The study highlights how predictive analytics and statistical analysis can be combined to derive meaningful insights from survey-based research data.
 
 
 
-\# 👨‍💻 Author
+---
 
 
 
-\## Lakshya Gautam
+# 👨‍💻 Author
 
 
 
-MBA in AI \& Data Science
+## Lakshya Gautam
+
+
+
+MBA in AI & Data Science
 
 RV University
 
